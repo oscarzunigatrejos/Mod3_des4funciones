@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Colores</title>
+    <style>
+        body{
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+        }
+        div span{
+            display: none;
+        }
+        div:hover span{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div id="color-1" style="background-color: blue;"><span>Dame un click</span></div>
+    <div id="color-2" style="background-color: red;"><span>Dame un click</span></div>
+    <div id="color-3" style="background-color: yellow;"><span>Dame un click</span></div>
+    <div id="color-4" style="background-color: green;"><span>Dame un click</span></div>
+    <script src="./assets/js/4_colores.js"></script>
+</body>
+</html>
